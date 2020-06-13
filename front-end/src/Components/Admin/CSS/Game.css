@@ -1,0 +1,297 @@
+body{
+    background-color: rgb(232, 243, 231);
+}
+
+.authBox{
+    width: 700px;
+    overflow: hidden;
+    margin: 80px auto 30px;
+}
+
+.leftBox{
+    width:300px;
+    height: 480px;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.bgGreen{
+    width:100%;
+    height: 100%;
+    background-color:#008272;
+    border-top-left-radius: 90px;
+}
+
+
+
+.imageText{
+    font-size: 28px;
+    position: absolute;
+    left: 500px;
+    color: #ffffff;
+}
+
+.imageText.bold{
+    font-weight: bold;
+}
+
+.imageText.style1{
+    top: 200px;
+    left: 20px;
+}
+
+.imageText.style2{
+    top: 250px;
+    left: 20px;
+}
+
+.rightBox{
+    background: #ffffff;
+    width:398px;
+    height: 478px;
+    float: right;
+    border: 1px solid #59c385;
+    border-bottom-right-radius: 90px;
+}
+
+.box{
+    width: 310px;
+    height: 415px;
+    margin-left: 32px ;
+    margin-right: 32px ;
+    margin-top: 100px;
+
+}
+
+.titleAuth{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #116149;
+}
+
+.inputSBox{
+    width: 90%;
+    height: 42px;
+    border-bottom: 2px solid #d8d8d8;
+    margin-bottom: 10px;
+}
+
+.inputS{
+    width: 100%;
+    height: 98%;
+    font-size: 16px;
+    color: #37353f;
+    text-indent: 10px;
+    border: 0;
+    outline: none;
+}
+
+.contentBox{
+    overflow: hidden;
+    height: 42px;
+    margin-bottom: 30px;
+}
+
+.text1{
+    float: left;
+    color: #183a21;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.btnAuth{
+    align-items: center;
+    width: 200px;
+    height: 47px;
+    background-color: #116149;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.btnAuth:hover{
+    background-color: rgb(24, 82, 24);
+}
+
+.form{
+    align: center
+}
+
+
+
+.columnSet {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    height:auto;
+}
+.columnset {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    text-align: left;
+    border: 1px solid black;
+    height:auto;
+}
+
+.list{
+    background-color: #B0C4DE;
+    width:auto;
+    height: auto;
+
+}
+.emptyCard{
+    background-color:#DCDCDC;
+    width: 480px;
+    height: auto;
+    border-color: black;
+
+}
+.productName{
+
+    font-family: Alike;
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+.productName:hover{
+    color: orange;
+    cursor: pointer;
+    text-decoration-line: underline;
+
+}
+
+.product{
+    text-align: center;
+    float: right;
+    line-height: 18px;
+
+}
+.productColour{
+    font-family: Asul;
+    color: darkblue;
+    font-size: 15px;
+
+}
+.productSize{
+    font-family: Asul;
+    color: darkblue;
+    font-size: 18px;
+}
+.productimage{
+    height: 200px;
+    width:350px;
+
+    padding-bottom: 15px;
+
+}
+
+.quantityString{
+
+    font-family: "Corben";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.productPrice{
+
+    font-family: "Farro";
+    font-size: 23px;
+}
+
+.productQty{
+
+    font-family: "Farro";
+    font-size: 23px;
+}
+.remove{
+
+    text-align: right;
+
+}
+.trashIcon{
+
+    height: 33px;
+
+
+}
+.trashBtn{
+    background-color: white;
+    border: 0px;
+    outline: none;
+}
+
+.trashBtn:active {
+    background-color: white;
+    box-shadow: 0 2px whitesmoke;
+    transform: translateY(4px);
+    outline: none;
+}
+
+.trashBtn:focus {
+
+    outline:0;
+}
+
+.qty {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.emptyList{
+
+
+    border: 1px rebeccapurple;
+    text-align: right;
+
+}
+
+.sadimage{
+
+    height: auto;
+    width:100px;
+
+    padding-bottom: 15px;
+}
+.empty{
+
+    font-family: 'Actor';
+    font-size: 22px;
+    font-weight: bold;
+}
+.category{
+    color: red;
+
+}
+.dash{
+    background-color: #59c385;
+    background-image: url('dash.jpg');
+}
+.addgameContainer{
+
+    padding-left: 250px;
+}
+.title{
+
+    color: white;
+}
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}

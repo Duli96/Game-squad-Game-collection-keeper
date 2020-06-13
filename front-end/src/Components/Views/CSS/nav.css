@@ -1,0 +1,12 @@
+.pc {
+     height: auto;
+     width: 60px;
+     padding-bottom: 15px;
+    color: red;
+ }
+.dashboard{
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 22px;
+}
